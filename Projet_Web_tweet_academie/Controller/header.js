@@ -1,0 +1,2 @@
+
+  $('.home').addClass("activ")

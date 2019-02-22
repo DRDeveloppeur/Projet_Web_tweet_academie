@@ -1,0 +1,267 @@
+body {
+  background-color: #141d26 !important;
+  color: #8899a6 !important;
+  padding-top: 0.1rem;
+}
+
+.tweet {
+  border-radius: 1000rem;
+  padding: 0.2rem 1.3rem;
+  border-color: transparent;
+}
+
+.follow {
+  border-radius: 1000rem;
+  background: inherit;
+  pointer-events: auto;
+  border: 1px solid #1DA1F2;
+  color: #1DA1F2;
+  padding: 0.2rem 1.3rem;
+}
+
+.follow:hover {
+  border: 1px solid rgb(29, 217, 242);
+  color: rgb(29, 217, 242);
+}
+
+.fondhead {
+  background-color: #1b3448;
+  padding: 0.5rem 2rem;
+  border: 2px solid black;
+}
+
+.fond {
+  background-color: #141d26 !important;
+}
+
+.fondbody {
+  background-color: #1b344a !important;
+}
+
+.fondbodyt {
+  background-color: #1b2836 !important;
+  padding: 0.5rem 2rem;
+  margin-bottom: 0.1rem;
+  border: 1px solid black;
+}
+
+.fondbodyl>img {
+  width: 40%;
+  margin-bottom: 1.5rem;
+}
+
+.fondbodyl {
+  background-color: #1b2836 !important;
+  padding: 0.5rem 2rem;
+  margin-bottom: 0.1rem;
+  border: 1px solid black;
+  height: 100%;
+}
+
+.foll>img {
+  width: 30%;
+}
+
+.fondbodyr {
+  height: 100%;
+  background-color: #1b2836 !important;
+  padding: 0.1rem 2rem;
+  padding-top: 1rem;
+  margin-bottom: 0.1rem;
+  border: 1px solid black;
+}
+
+.foll {
+  height: 3%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #141d26;
+}
+
+.search {
+  margin-right: 3%;
+}
+
+.center {
+  margin: auto;
+  float: none;
+}
+
+.link {
+  color: Darkgray;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.link:hover {
+  color: #1DA1F2;
+  text-decoration: none;
+}
+
+.err {
+  margin-top: 3.75rem;
+}
+
+.activ {
+  color: #1DA1F2;
+}
+
+.profil {
+  border-radius: 100rem;
+  margin-right: 3%;
+  width: 7%;
+}
+
+.button {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 10rem;
+  height: 2rem;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 20px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 21px;
+  border-radius: 21px;
+  font: normal 20px/normal "Antic", Helvetica, sans-serif;
+  color: rgba(140, 140, 140, 1);
+  text-decoration: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: rgba(40, 40, 40, 0.4);
+  -webkit-box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.5) inset;
+  -webkit-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -moz-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -o-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+.button:hover {
+  color: rgba(181, 181, 181, 0);
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -moz-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -o-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+.button:focus {
+  cursor: default;
+  padding: -13px 20px 0;
+  color: rgba(255, 255, 255, 1);
+  -webkit-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -moz-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -o-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+
+/*---------------RECOLOR OUTLINE BTN-----------*/
+
+.btn-outline-success {
+  color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+
+.btn-outline-success:hover {
+  background-color: rgb(29, 217, 242);
+  border-color: rgb(29, 217, 242);
+}
+
+.btn-outline-success.disabled, .btn-outline-success:disabled {
+  color: #1DA1F2;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active, .show>.btn-outline-success.dropdown-toggle {
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+
+
+/*--------------------------*/
+
+.navbar {
+  height: 3.5em;
+}
+
+.bg-dark {
+  background-color: #243447!important;
+}
+
+.tweet-area {
+  width: 18em;
+  border-color: #1DA1F2;
+}
+
+.tweet-area:active {
+  height: 7em;
+}
+
+.float {
+  float: left;
+}
+
+.form-tweet {
+  height: auto;
+}
+
+.btn-primary {
+  background-color: #1DA1F2;
+}
+
+.btn-primary:hover {
+  border-color: transparent;
+  background-color: rgb(29, 217, 242);
+}
+
+button:focus {
+  outline: none!important;
+}
+
+.recommended {
+  float: left;
+}
+
+.text-grey {
+  color: #8899a6;
+}
+
+.form-control {
+  border-color: #1DA1F2!important;
+}
+
+.count {
+  margin-right: 1em;
+}
+
+.count-n {
+  margin-right: 4em;
+}
+
+.center {
+  text-align: center;
+  justify-content: left;
+}
+
+.tweetimg {
+  width: 15%;
+}
+
+.white {
+  color: white;
+}
+
+.grey {
+  color: grey;
+}
+
+.blue {
+  color: #1da1f2;
+}

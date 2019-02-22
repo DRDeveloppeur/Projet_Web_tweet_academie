@@ -1,0 +1,89 @@
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1da1f2;
+  background-image: url('../misc/icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-38 {
+  height: 38px;
+  border-radius: 25px!important;
+}
+
+.btn-primary {
+  background-color: #1da1f2;
+}
+
+.btn-outline-dark {
+  border-color: #1da1f2;
+  color: #1da1f2;
+}
+
+.left {
+  background-color: none;
+}
+
+.right {
+  background-color: white;
+  height: 55em;
+}
+
+.login-form {
+  margin-top: 2em;
+}
+
+.bold {
+  font-weight: bold!important;
+}
+
+.homep {
+  font-size: 18px;
+}
+
+.jump {
+  padding-top: 2em;
+}
+
+.jump-btn {
+  padding-top: 1em;
+}
+
+.footer {
+  background-color: white;
+  border-top: 1px solid #e6ecf0;
+  width: 100%;
+  justify-content: center;
+  height: 1.75em;
+  position: absolute;
+}
+
+.foot {
+  text-align: center;
+  color: #aab8c2;
+  background-color: white;
+}
+
+.grey {
+  color: #aab8c2;
+}
+
+.middle {
+  padding-top: 23em;
+}
+
+.under-log {
+  padding-top: 5em;
+}
+
+label {
+  font-size: 18px;
+}
+
+.reg-form {
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
